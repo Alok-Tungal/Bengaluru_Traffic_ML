@@ -3,7 +3,7 @@ import pandas as pd
 import joblib
 
 # Load saved RandomForestRegressor model
-model = joblib.load("best_random_forest_model.pkl")
+model = joblib.load("best_random_forest_model.joblib")
 
 st.title("Bengaluru Traffic Prediction App")
 st.write("Predicts target value using your trained RandomForestRegressor model.")
